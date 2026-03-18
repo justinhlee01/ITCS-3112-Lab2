@@ -9,8 +9,8 @@
   <component name="ChangeListManager">
     <list default="true" id="f6f84373-5782-4b4f-b419-07b4e1e3584f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ITCS-3112-Lab2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ITCS-3112-Lab2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/Book.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Book.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Domain/Member.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Member.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/AuthService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/AuthService.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +93,7 @@
       <option name="presentableId" value="Default" />
       <updated>1773862820639</updated>
       <workItem from="1773862822103" duration="1186000" />
-      <workItem from="1773865141437" duration="1114000" />
+      <workItem from="1773865141437" duration="2779000" />
     </task>
     <servers />
   </component>
