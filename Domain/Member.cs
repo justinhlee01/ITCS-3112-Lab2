@@ -9,7 +9,7 @@ public class Member
     public Member(string email, string name, string password)
     {
         if (string.IsNullOrEmpty(email))
-            throw new ArgumentNullException(nameof(account));
+            throw new ArgumentNullException(nameof(email));
         if (string.IsNullOrEmpty(name))
             throw new ArgumentNullException(nameof(name));
         if (string.IsNullOrEmpty(password))

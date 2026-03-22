@@ -8,5 +8,5 @@ public interface IBookRepository
     void Removebook(Book book);
     Book Updatebook(Book book);
     Book GetBookById(int bookId);
-    Book GetBookAllBooks(string title);
+    List<Book> GetBookAllBooks();
 }

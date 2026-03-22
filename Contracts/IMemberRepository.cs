@@ -8,5 +8,5 @@ public interface IMemberRepository
     void RemoveMember(Member member);
     Member UpdateMember(Member member);
     Member GetMemberById(string email);
-    Member GetMemberAllMembers(string email);
+    List<Member> GetMemberAllMembers();
 }

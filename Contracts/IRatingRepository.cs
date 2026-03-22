@@ -7,5 +7,4 @@ public interface IRatingRepository
     void AddRating(Rating  rating);
     void UpdateRating(Rating rating);
     List<Rating> GetAllRatings();
-    List<Rating> GetMemberById(Member member);
 }
