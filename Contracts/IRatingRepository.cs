@@ -4,7 +4,8 @@ namespace ITCS_3112_Lab2.Contracts;
 
 public interface IRatingRepository
 { 
-    void AddRating(Rating  rating);
+    void AddRating(Rating rating);
     void UpdateRating(Rating rating);
     List<Rating> GetAllRatings();
+    List<Rating> GetRatingsByMember(string memberId);
 }

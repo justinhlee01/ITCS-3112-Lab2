@@ -2,21 +2,23 @@ namespace ITCS_3112_Lab2.Domain;
 
 public class Member
 {
-    public string Email { get; set; }
+    public string Account { get; set; }
     public string Name { get; set; }
     public string Password { get; set; }
+    public int[] Ratings { get; set; }
 
-    public Member(string email, string name, string password)
+    public Member(string account, string name, string password, int[] ratings)
     {
-        if (string.IsNullOrEmpty(email))
-            throw new ArgumentNullException(nameof(email));
+        if (string.IsNullOrEmpty(account))
+            throw new ArgumentNullException(nameof(account));
         if (string.IsNullOrEmpty(name))
             throw new ArgumentNullException(nameof(name));
         if (string.IsNullOrEmpty(password))
             throw new ArgumentNullException(nameof(password));
 
-        Email = email;
+        Account = account;
         Name = name;
         Password = password;
+        Ratings = ratings ?? Array.Empty<int>();
     }
 }
